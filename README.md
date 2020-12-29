@@ -2,6 +2,5 @@
 
 React JS Fundamentals Course (2020 Update!)"# movie_app" 
 
-./src/App.js file is main component.
-App.js is imported Movie.js(has propType function component).
-Also App.js has 'Movie info API'
+./src/App.js tranfers props(Movies info) to Movie.js by using API.
+

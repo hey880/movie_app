@@ -1,4 +1,5 @@
 import React from "react";
+import './Detail.css';
 
 class Detail extends React.Component{
     componentDidMount(){//render가 실행된 다음에 이게 실행된다.
@@ -16,7 +17,20 @@ class Detail extends React.Component{
         //location이 사라진 거기 때문에 에러 발생.
         //if로 걸러주자.
         if(location.state){//location.state가 존재하면
-            return <span>{location.state.title}</span>
+            return (<div className="detail">
+                <span className="poster">
+                <img src={location.state.poster} alt={location.state.title} title={location.state.title}/>
+                </span>
+                <br/>
+                <span className="title">
+                <h2>{location.state.title}</h2>
+                </span>
+                <br/>
+                <span className="summary">
+                {location.state.summary}
+                </span>
+                </div>
+                )
         } else {
             return null; //없으면 null을 반환하고 위의 didMount로 이동
         }

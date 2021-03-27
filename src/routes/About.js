@@ -6,10 +6,9 @@ function About(){
    return (
     <div className="about__container">
       <span>
-        “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follows.”
+        2021/03/27 Update <br/><br/>
+        API를 이용하여 영화 정보를 가져오는 사이트 입니다.
       </span>
-      <span>− George Orwell, 1984</span>
     </div>
   );
 }

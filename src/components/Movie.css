@@ -51,7 +51,7 @@
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   }
 
-  .movie a {
+  .movies a {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;

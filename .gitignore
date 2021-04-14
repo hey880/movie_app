@@ -12,11 +12,13 @@
 /.next/
 /out/
 
+
 # production
 /build
 
 # misc
 .DS_Store
+<<<<<<< HEAD
 *.pem
 
 # debug
@@ -29,6 +31,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
 
 # vercel
 .vercel

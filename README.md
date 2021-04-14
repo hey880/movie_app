@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +33,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# Movie App 2020
+
+Nomad Coder React JS Fundamentals Course (2020 Update!)"# movie_app" 
+
+Deploy url : https://hey880.github.io/movie_app/
+
+2021-04-14 네이버 영화 API와 영화진흥위원회 API를 이용한 새로운 페이지로 변환 시작.
+>>>>>>> 8e8a4f9fa8045fde59ec6b709465007a4c56f038

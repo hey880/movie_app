@@ -1,0 +1,58 @@
+.contents {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.contents strong{
+  color: black;
+  border-bottom: solid black 3px;
+}
+
+.boxOffice {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 640px;
+  margin-top: 20px;
+  background: rgb(240, 217, 217);
+  padding-top: 20px;
+}
+
+.boxOffice span {
+  width: 190px;
+  height: 125px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.boxOffice2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 640px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: rgb(240, 217, 217);
+  padding-top: 20px;
+}
+
+.boxOffice2 span {
+  width: 190px;
+  height: 125px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 414px) {
+  .contents{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .boxOffice{
+    width: 100%;
+  }
+
+  .boxOffice2{
+    width: 100%;
+  }
+}

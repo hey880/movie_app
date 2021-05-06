@@ -1,7 +1,7 @@
-export default function Question() {
+export default function Overseas_news() {
     return (
         <div style={{height:"1500px", background:"white"}}>
-            질문게시판 입니다.
+            해외영화 소식
         </div>
-        )
+    )
 }

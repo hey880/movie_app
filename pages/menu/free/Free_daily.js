@@ -1,7 +1,7 @@
-export default function Suggest() {
+export default function Free_daily() {
     return (
         <div style={{height:"1500px", background:"white"}}>
-            건의사항 게시판입니다.
+            자유게시판-일상 입니다.
         </div>
         )
 }

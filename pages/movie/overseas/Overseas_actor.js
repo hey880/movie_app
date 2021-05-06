@@ -1,7 +1,7 @@
-export default function Question() {
+export default function Overseas_actor() {
     return (
         <div style={{height:"1500px", background:"white"}}>
-            질문게시판 입니다.
+            해외배우이야기
         </div>
-        )
+    )
 }

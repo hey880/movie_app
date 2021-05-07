@@ -1,5 +1,12 @@
+.nav_wrap {
+  position: relative;
+  width: 1280px;
+  height: 190px;
+}
+
 .nav {
-    position: sticky;
+    position: absolute;
+    width: 1280px;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -25,6 +32,7 @@
     display: flex;
     flex-direction: column;
     line-height: 60px;
+    cursor: default;
   }
 
   .nav_secondLine ul:nth-child(4):hover {

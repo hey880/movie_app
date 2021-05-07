@@ -48,7 +48,7 @@ export default function Nav() {
         </ul>
       </div> 
     */
-   
+   <div className={styles.nav_wrap}>
     <nav className={styles.nav}>
 
       <div className={styles.nav_firstLine}>
@@ -128,5 +128,6 @@ export default function Nav() {
         </ul>
       </div>
     </nav>
+    </div>
   );
 }

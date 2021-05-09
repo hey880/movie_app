@@ -6,7 +6,7 @@ import axios from "axios";
 
 export default function Home() {
   const DailyApi =
-    "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210506";
+    "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210508";
 
   const WeeklyApi =
     "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchWeeklyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210501";

@@ -1,3 +1,34 @@
 .container {
     background: white;
 }
+
+.korea_actor_banner {
+    height: 150px;
+    background-size: contain;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    background-image: url('../../../public/images/chungmuro.jpg');
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.korea_movie_banner {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    background-image: url('../../../public/images/movies.jpg');
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.korea_news_banner {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    background-image: url('../../../public/images/kino.jpg');
+    font-size: 30px;
+    font-weight: bold;
+}

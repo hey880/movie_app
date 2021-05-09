@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: row;
   text-align: center;
-  height: 1500px;
+  height: 100vh;
+  background: white;
 }
 
 .contents strong{
@@ -43,17 +44,24 @@
   text-align: center;
 }
 
+@media (max-width: 280px) {
+  .contents{
+    width: 100%;
+    height: 2000px;
+    flex-direction: column;
+  }
+  .boxOffice {
+    margin: 0 auto;
+  }
+  .boxOffice2 {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 414px) {
   .contents{
     width: 100%;
-    flex-direction: column;
-  }
-
-  .boxOffice{
-    width: 100%;
-  }
-
-  .boxOffice2{
-    width: 100%;
+    height: 2000px;
   }
 }
+

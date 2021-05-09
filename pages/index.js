@@ -6,10 +6,10 @@ import axios from "axios";
 
 export default function Home() {
   const DailyApi =
-    "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210508";
+    "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210508";
 
   const WeeklyApi =
-    "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchWeeklyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210501";
+    "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchWeeklyBoxOfficeList.json?key=07892c4e4e10841c040264635e96cfeb&targetDt=20210501";
 
   const [dailyBoxOffice, setDailyBoxOffice] = useState([]);
   const [weeklyBoxOffice, setWeeklyBoxOffice] = useState([]);
@@ -37,7 +37,7 @@ export default function Home() {
       <Head>
         <title>무비무지 좋다!</title>
       </Head>
-      <div className={styles.contents} style={{height:"1500px", background:"white"}}>
+      <div className={styles.contents}>
         <div>
           <strong style={{ fontSize: "30px" }}>일간 박스오피스</strong>
           <div className={styles.boxOffice}> 

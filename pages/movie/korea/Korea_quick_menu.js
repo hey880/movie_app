@@ -1,31 +1,32 @@
 import Link from "next/link";
+import styles from "./Korea.module.css";
 import ScrollTop from "../../ScrollTop";
 
 export default function Korea_quick_menu () {
 
     return (
-        <div style={{position:"sticky", marginTop:"50px", top: 50 ,width: "100px", height: "250px", background:"black", float:"right", borderRadius:"10px", color:"white", listStyle:"none", textAlign:"center"}}>
-            <div style={{lineHeight:"50px", height:"50px", cursor:"pointer"}}>
+        <div className={styles.korea_quick_menu} style={{position:"sticky", top: 50}}>
+            
             <Link href="/movie/korea/Korea_movie">
               <li>영화이야기</li>
             </Link>
-            </div>
-            <div style={{lineHeight:"50px",height:"50px", cursor:"pointer"}}>
+         
+           
             <Link href="/movie/korea/Korea_actor">
               <li>배우이야기</li>
             </Link>
-            </div>
-            <div style={{lineHeight:"50px",height:"50px", cursor:"pointer"}}>
+          
+            
             <Link href="/movie/korea/Korea_news">
               <li>소식</li>
             </Link>
-            </div>
-            <div style={{lineHeight:"50px",height:"50px", cursor:"pointer"}}>
-                글쓰기
-            </div>
-            <div style={{lineHeight:"50px",height:"50px", cursor:"pointer"}}>
-                <ScrollTop/>
-            </div>
+          
+            
+              <li>글쓰기</li>
+          
+           
+              <li><ScrollTop/></li>
+           
         </div>
     )
 }

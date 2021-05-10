@@ -1,0 +1,76 @@
+.free_container {
+    height: 1500px;
+    background: white;
+}
+
+.free_quick_menu {
+    margin-top:50px;
+    width: 100px;
+    height: 200px; 
+    background: black; 
+    float: right; 
+    border-radius: 10px; 
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.free_quick_menu li {
+    line-height:50px;
+    height:50px;
+    cursor:pointer;
+}
+
+.free_movie_banner {
+    position: relative;
+    background-size: 20%;
+    line-height: 150px;
+    text-align: center;
+    background-image: url('../../../public/images/theater.jpg'); 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.free_movie_banner p {
+    position: relative;
+    margin: 0;
+    color: black
+}
+
+.free_movie_banner::before{
+    content: "";
+    opacity:0.3;
+    position: absolute;
+    top:0;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: white;
+}
+
+.free_daily_banner {
+    position: relative;
+    background-size: 20%;
+    line-height: 150px;
+    text-align: center;
+    background-image: url('../../../public/images/cafe.jpg'); 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.free_daily_banner p {
+    position: relative;
+    margin: 0;
+    color: black
+}
+
+.free_daily_banner::before{
+    content: "";
+    opacity:0.3;
+    position: absolute;
+    top:0;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: white;
+}

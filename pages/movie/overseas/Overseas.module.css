@@ -1,10 +1,12 @@
-.container {
-    height:1500px;    
+.overseas_container {
+    height: 1500px;
     background: white;
 }
 
-.korea_quick_menu {
+.overseas_quick_menu {
+    position:sticky;
     margin-top:50px;
+    top: 50;
     width: 100px;
     height: 250px; 
     background: black; 
@@ -15,60 +17,33 @@
     text-align: center;
 }
 
-.korea_quick_menu li {
+.overseas_quick_menu li {
     line-height:50px;
     height:50px;
     cursor:pointer;
 }
 
-.korea_quick_menu li:hover {
+.overseas_quick_menu li:hover {
     color: rgb(255, 217, 0);
 }
 
-.korea_actor_banner {
-    position: relative;
-    background-size: 50%;
-    line-height: 150px;
-    text-align: center;
-    background-image: url('../../../public/images/chungmuro.jpg'); 
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.korea_actor_banner p {
-    position: relative;
-    margin: 0;
-    color: black
-}
-
-.korea_actor_banner::before{
-    content: "";
-    opacity:0.3;
-    position: absolute;
-    top:0;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    background-color: white;
-}
-
-.korea_movie_banner {
+.overseas_movie_banner {
     position: relative;
     background-size: cover;
     line-height: 150px;
     text-align: center;
-    background-image: url('../../../public/images/k_movies.jpg'); 
+    background-image: url('../../../public/images/movies.jpg'); 
     font-size: 30px;
     font-weight: bold;
 }
 
-.korea_movie_banner p {
+.overseas_movie_banner p {
     position: relative;
     margin: 0;
     color: black
 }
 
-.korea_movie_banner::before{
+.overseas_movie_banner::before{
     content: "";
     opacity:0.3;
     position: absolute;
@@ -79,23 +54,50 @@
     background-color: white;
 }
 
-.korea_news_banner {
+.overseas_actor_banner {
     position: relative;
-    background-repeat: repeat;
+    background-size: 70%;
     line-height: 150px;
     text-align: center;
-    background-image: url('../../../public/images/kino.jpg'); 
+    background-image: url('../../../public/images/overseas_actor.jpg'); 
     font-size: 30px;
     font-weight: bold;
 }
 
-.korea_news_banner p {
+.overseas_actor_banner p {
     position: relative;
     margin: 0;
     color: black
 }
 
-.korea_news_banner::before{
+.overseas_actor_banner::before{
+    content: "";
+    opacity:0.3;
+    position: absolute;
+    top:0;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: white;
+}
+
+.overseas_news_banner {
+    position: relative;
+    background-size: 60%;
+    line-height: 150px;
+    text-align: center;
+    background-image: url('../../../public/images/newspaper.jpg'); 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.overseas_news_banner p {
+    position: relative;
+    margin: 0;
+    color: black
+}
+
+.overseas_news_banner::before{
     content: "";
     opacity:0.3;
     position: absolute;

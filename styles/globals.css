@@ -1,27 +1,13 @@
 html,
 body {
+  position: relative;
   padding: 0;
   margin: 0 auto;
+  background-image: url('../public/images/pulp_fiction.jpg');
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   width: 1280px;
   height: 100vh;
-}
-
-body::after{
-  content: "";
-  background-image: url(../public/images/pulp_fiction.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  opacity:0.6;
-  position: absolute;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom:0px;
-  height: 100vw;
-  z-index: -1;
-  /* https://ddorang-d.tistory.com/89 해결법 1 참고*/
 }
 
 a {

@@ -1,7 +1,11 @@
+import styles from './Question.module.css';
+
 export default function Question() {
     return (
-        <div style={{height:"1500px", background:"white"}}>
-            질문게시판 입니다.
+        <div className={styles.question_container}>
+            <div className={styles.question_banner}>
+                <p>질 문</p>
+            </div>
         </div>
         )
 }
